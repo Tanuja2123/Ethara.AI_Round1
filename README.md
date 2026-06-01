@@ -148,7 +148,19 @@ Quick publish script (after creating GitHub repo):
    - `CORS_ORIGINS` = your frontend URL (e.g. `https://your-app.netlify.app`)
 6. Deploy and note the backend URL (e.g. `https://inventory-backend.onrender.com`).
 
-### Backend — Docker Hub
+### Backend — Docker Hub (Requirement 2)
+
+**Recommended:** GitHub Actions (no local Docker needed). See **[docs/DOCKERHUB_SETUP.md](./docs/DOCKERHUB_SETUP.md)**.
+
+Quick setup — run in PowerShell (opens required browser pages):
+
+```powershell
+.\scripts\setup-dockerhub.ps1 -DockerHubUsername "YOUR_DOCKERHUB_USERNAME"
+```
+
+Add GitHub secrets `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN`, then run the **Publish Backend to Docker Hub** workflow.
+
+**Alternative — local Docker Desktop:**
 
 Build and push the backend image:
 

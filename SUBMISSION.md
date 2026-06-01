@@ -5,7 +5,7 @@ Fill in after completing deployment steps in DEPLOYMENT.md.
 | Deliverable | URL |
 |-------------|-----|
 | **GitHub Repository** | https://github.com/Tanuja2123/Ethara.AI_Round1 |
-| **Docker Hub Image** | https://hub.docker.com/r/YOUR_DOCKERHUB_USERNAME/inventory-backend |
+| **Docker Hub Image** | https://hub.docker.com/r/Tanuja2123/inventory-backend *(after GitHub Actions publish — see docs/DOCKERHUB_SETUP.md)* |
 | **Live Frontend** | https://YOUR-SITE.netlify.app |
 | **Live Backend API** | https://YOUR-BACKEND.onrender.com |
 
