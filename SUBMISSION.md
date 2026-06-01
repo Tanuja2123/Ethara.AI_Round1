@@ -4,7 +4,7 @@ Fill in after completing deployment steps in DEPLOYMENT.md.
 
 | Deliverable | URL |
 |-------------|-----|
-| **GitHub Repository** | https://github.com/YOUR_USERNAME/inventory-order-management |
+| **GitHub Repository** | https://github.com/Tanuja2123/Ethara.AI_Round1 |
 | **Docker Hub Image** | https://hub.docker.com/r/YOUR_DOCKERHUB_USERNAME/inventory-backend |
 | **Live Frontend** | https://YOUR-SITE.netlify.app |
 | **Live Backend API** | https://YOUR-BACKEND.onrender.com |
