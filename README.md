@@ -125,6 +125,16 @@ A production-ready full-stack application for managing products, customers, orde
 
 ## Deployment
 
+See **[DEPLOYMENT.md](./DEPLOYMENT.md)** for step-by-step GitHub, Render, Netlify, and Docker Hub instructions.
+
+Fill in live URLs in **[SUBMISSION.md](./SUBMISSION.md)** after deploying.
+
+Quick publish script (after creating GitHub repo):
+
+```powershell
+.\scripts\publish.ps1 -GitHubUsername "YOUR_USERNAME"
+```
+
 ### Backend — Render (Free Tier)
 
 1. Push code to GitHub.
