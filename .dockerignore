@@ -1,8 +1,0 @@
-# Root Dockerfile (for Render with repo-root build context)
-.git
-backend/.env
-frontend/
-node_modules
-*.md
-.env
-.env.*

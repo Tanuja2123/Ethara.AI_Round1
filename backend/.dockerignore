@@ -1,3 +1,5 @@
+# Backend Render deployment (build context = backend/)
+
 __pycache__
 *.py[cod]
 *.pyo

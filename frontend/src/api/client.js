@@ -1,4 +1,13 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = normalizeApiUrl(import.meta.env.VITE_API_URL || 'http://localhost:8000');
+
+function normalizeApiUrl(url) {
+  if (!url) return 'http://localhost:8000';
+  const trimmed = url.trim().replace(/\/$/, '');
+  if (trimmed.startsWith('http://') || trimmed.startsWith('https://')) {
+    return trimmed;
+  }
+  return `https://${trimmed}`;
+}
 
 class ApiError extends Error {
   constructor(message, status, details) {
